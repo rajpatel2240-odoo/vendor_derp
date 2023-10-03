@@ -25,6 +25,12 @@ PRODUCT_PACKAGES += \
     UdfpsResources
 endif
 
+# Translations
+CUSTOM_LOCALES += \
+    ast_ES \
+    gd_GB \
+    cy_GB
+
 # Extra tools in DerpFest
 PRODUCT_PACKAGES += \
     bash \

@@ -18,12 +18,6 @@ PRODUCT_PACKAGES += \
     DerpWalls \
     ThemePicker
 
-# Udfps
-ifeq ($(EXTRA_UDFPS_ANIMATIONS),true)
-PRODUCT_PACKAGES += \
-    UdfpsResources
-endif
-
 # Translations
 CUSTOM_LOCALES += \
     ast_ES \

@@ -181,13 +181,10 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/derp/overlay/no-rro
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
+-include vendor/derp/config/partner_gms.mk
 
 # Art
 include vendor/derp/config/art.mk
 
 # Versioning
 include vendor/derp/config/version.mk
-
-# GApps
-WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)

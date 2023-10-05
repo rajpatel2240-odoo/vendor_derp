@@ -16,9 +16,3 @@ endif
 PRODUCT_PACKAGES += \
     unrar \
     zstd
-
-# Overlays
-include vendor/overlay/overlays.mk
-
-# Fonts
-include vendor/fontage/config.mk

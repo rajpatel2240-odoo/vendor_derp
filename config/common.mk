@@ -214,3 +214,6 @@ TARGET_SUPPORTS_CALL_RECORDING ?= true
 
 # Lawnicons
 $(call inherit-product-if-exists, vendor/lawnicons/overlay.mk)
+
+#BCR
+$(call inherit-product, vendor/bcr/bcr.mk)

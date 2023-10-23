@@ -178,3 +178,6 @@ include vendor/derp/config/version.mk
 # GApps
 WITH_GMS := true
 $(call inherit-product, vendor/gms/products/gms.mk)
+
+#BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
